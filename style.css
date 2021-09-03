@@ -1,20 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web:wght@600&display=swap');
+
 .grid {
-    width: 200px;
-    height: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    border-style: solid;
-  }
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+
+.title {
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+}
+
+.start {
+  background-color: #e74c3c;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  border-radius: 0.6em;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat' sans-serif;
+  font-weight: 700;
+ 
+}
   
-  .grid div {
-    width: 20px;
-    height: 20px;
-  }
+.grid div {
+  width: 40px;
+  height: 40px;
+}
   
-  .snake {
-    background-color: blue;
-  }
+.snake {
+  background-color: blue;
+}
   
-  .apple {
-    background-color: purple;
-  }
+.apple {
+  background-color: purple;
+}
